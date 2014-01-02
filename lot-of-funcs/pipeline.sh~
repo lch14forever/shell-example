@@ -1,0 +1,11 @@
+POS_FILES=./pos/*.txt
+NEG_FILES=./neg/*.txt
+
+for f in $POS_FILES
+do
+    echo "Testing..."
+done
+
+for f in $NEG_FILES
+do 
+    echo "Testing again..."

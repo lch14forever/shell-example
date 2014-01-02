@@ -1,0 +1,5 @@
+for file in *
+do
+    pre = $(echo "$file" | sed 's/(*)\.txt/$1/')
+    awk '{print $0 "\t" $pre}'
+done
